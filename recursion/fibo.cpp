@@ -7,7 +7,7 @@ using namespace std;
 int fibo(int N)
 {
     if (N < 2)
-        return 1;
+        return N;
     return fibo(N - 2) + fibo(N - 1);
 }
 

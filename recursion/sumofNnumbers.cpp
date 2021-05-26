@@ -6,13 +6,13 @@ using namespace std;
 
 int SumN(int N)
 {
-    if (N == 0)
-        return 0;
+    if (N == 1)
+        return 1;
     return N + SumN(N - 1);
 }
 
 int main()
 {
 
-    cout << SumN(4);
+    cout << SumN(5);
 }
